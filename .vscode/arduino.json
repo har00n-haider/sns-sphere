@@ -1,0 +1,7 @@
+{
+    "port": "/dev/ttyACM0",
+    "board": "STM32:stm32:Nucleo_64",
+    "configuration": "pnum=NUCLEO_F446RE,upload_method=MassStorage,xserial=generic,usb=none,xusb=FS,opt=osstd,rtlib=nano",
+    "programmer": "ArduinoISP",
+    "sketch": "SphereCode.ino"
+}

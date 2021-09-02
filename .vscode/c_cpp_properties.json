@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Arduino",
+            "includePath": [
+                "/home/haroon/.arduino15/packages/STM32/hardware/stm32/1.8.0/libraries/**",
+                "/home/haroon/Arduino/libraries/**",
+                "/home/haroon/.arduino15/packages/STM32/hardware/stm32/1.8.0/**",
+                "/home/haroon/.arduino15/packages/STM32/tools/**",
+                "${workspaceFolder}"
+            ],
+            "forcedInclude": [
+                "/home/haroon/.arduino15/packages/STM32/hardware/stm32/1.7.0/cores/arduino/Arduino.h",
+                "/home/haroon/.arduino15/packages/STM32/hardware/stm32/1.8.0/cores/arduino/Arduino.h"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/cpp",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "defines": [
+                "USBCON",
+                "USBD_USE_CDC",
+                "ARDUINO=101"
+            ]
+        }   
+    ],
+    "version": 4
+}
